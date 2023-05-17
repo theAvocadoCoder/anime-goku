@@ -3,6 +3,7 @@ import React from "react";
 // eslint-disable-next-line no-unused-vars
 import NavbarStyles from "./Navbar.module.scss";
 import { Link, Outlet } from "react-router-dom";
+import Footer from "../Footer";
 
 const Navbar = () => {
   return (
@@ -16,6 +17,7 @@ const Navbar = () => {
         </li>
       </ul>
       <Outlet />
+      <Footer/>
     </>
   )
 }
